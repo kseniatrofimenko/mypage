@@ -1,0 +1,30 @@
+.button{ /*with . вызывается класс-->*/
+    width: 10vw;
+}
+
+p{
+    color:aqua;
+    font-size: 5vw;
+    background-color: rgb(229, 68, 68);
+    position: relative;
+  font-family: myfont;
+
+}
+#kitty{
+
+width: 10vw;
+opacity: 50%;
+border: 2px solid rgb(164, 89, 89);
+
+}
+
+#container{
+    display: flex;
+    justify-content: right;
+}
+
+@font-face {
+    font-family: myfont;
+    src: url(./fonts/AWOMA.ttf);
+}
+
