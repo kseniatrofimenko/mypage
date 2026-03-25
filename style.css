@@ -1,4 +1,4 @@
-.button{ /*with . вызывается класс-->*/
+/*.button{  #with . вызывается класс-->
     width: 10vw;
 }
 
@@ -26,5 +26,5 @@ border: 2px solid rgb(164, 89, 89);
 @font-face {
     font-family: myfont;
     src: url(./fonts/AWOMA.ttf);
-}
+}*/
 
