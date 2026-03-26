@@ -83,12 +83,42 @@ body{
     
     }
 
-#svgaboutme{
-    display: block;
-    top: 37px;
-    left: 162px;
-    position: relative;
+
+
+#blockme {
+  display: grid;
+  grid-template-columns: 8.59% 11.99% 1fr 8.59% 21.88%;
+  width: 73.6%;
+  max-width: 1001px;
+  margin-left: 13.9%;
+  margin-top: 48px;
+  align-items: start;
+  background-color: aqua;
 }
+#svgaboutme {
+  grid-column: 1;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#gif {
+  grid-column: 3;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 30%;
+}
+
+#blockme > div {
+  grid-column: 5;
+  font-size: 1.6vw;
+  font-family: poiret1;
+  line-height: 1.35;
+  margin-top: 180%;
+}
+
+
 
 p{
     margin:0;
@@ -122,3 +152,4 @@ p{
 
     z-index: 2;
 }*/
+

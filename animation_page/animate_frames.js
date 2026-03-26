@@ -1,11 +1,11 @@
 const startFrame = 0;
-const endFrame = 9;
+const endFrame = 3;
 const frames = [];
 
 // Preload frames from "frames_2" folder
 for (let i = startFrame; i <= endFrame; i++) {
     const img = new Image();
-    img.src = `frames/${i}.jpg`;
+    img.src = `frames/${i}.png`;
     frames.push(img);
 }
 
