@@ -28,10 +28,31 @@ border: 2px solid rgb(164, 89, 89);
     src: url(./fonts/AWOMA.ttf);
 }*/
 
+body{
+    margin:0;
+}
+@font-face {
+    font-family: zector;
+    src: url(./fonts/Zector.otf);
+    font-family: poiret1;
+    src: url(./fonts/PoiretOne-Regular.ttf);
+}
+#faceup{
+    display: block;
+    width: calc(100vw - 2.1875vw);
+    top: left;
+    left: 0;
+    position: relative;
+    z-index: 1;
+}
 #logoKSE{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    font-family: zector;
     font-size: 10vh;
-    transition:  background-color 2s ;
+    display: block;
+  
+    position: relative;
+    z-index: 2;
 }
 
 #logoKSE:hover {
