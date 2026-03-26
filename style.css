@@ -48,14 +48,77 @@ body{
 #logoKSE{
     margin: 0;
     font-family: zector;
-    font-size: 10vh;
     display: block;
-  
-    position: relative;
     z-index: 2;
+    position: absolute;
+    top: 39.54%;
+    left: 47.58%;
+    font-size: 3.125vw;
 }
 
 #logoKSE:hover {
     background-color: blue;
     opacity: 10;
 }
+
+#augebild{
+    display:inline-block;
+    position:relative;
+    width:100%;
+}
+
+#upcontacts{
+    color: white;
+    margin: 0;
+    padding:0;
+    font-family: poiret1;
+    font-size: 1.09375vw;
+    display: flex;
+    z-index: 2;
+    position: absolute;
+     gap: 18.59vw;
+    left: 36.7%;
+    top: 69%;
+
+    
+    }
+
+#svgaboutme{
+    display: block;
+    top: 37px;
+    left: 162px;
+    position: relative;
+}
+
+p{
+    margin:0;
+    padding:0;
+}
+
+/*#logoKSE {
+    margin: 0;
+    font-family: zector;
+    position: absolute;
+    top: 12.08vh;
+    left: 47.58vw;
+    font-size: 3.125vw;
+    z-index: 2;
+}
+
+#upcontacts {
+    position: absolute;
+
+    /* ТА ЖЕ позиция по X 
+    left: 47.58vw;
+
+    /* ниже на 19px 
+    top: calc(12.08vh + 19px);
+
+    font-family: poiret1;
+    font-size: 1.09375vw;
+
+    display: flex;
+    gap: 238px;
+
+    z-index: 2;
+}*/
