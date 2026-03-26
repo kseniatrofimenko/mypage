@@ -28,6 +28,13 @@ border: 2px solid rgb(164, 89, 89);
     src: url(./fonts/AWOMA.ttf);
 }*/
 
-#fabrika{
-    width: 20px;
+#logoKSE{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10vh;
+    transition:  background-color 2s ;
+}
+
+#logoKSE:hover {
+    background-color: blue;
+    opacity: 10;
 }
