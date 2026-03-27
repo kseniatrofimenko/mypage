@@ -78,7 +78,7 @@ body{
     position: absolute;
      gap: 18.59vw;
     left: 36.7%;
-    top: 69%;
+    top: 63%;
 
     
     }
@@ -87,13 +87,14 @@ body{
 
 #blockme {
   display: grid;
-  grid-template-columns: 8.59% 11.99% 1fr 8.59% 21.88%;
+  grid-template-columns: 8.59% 11.99% 1fr 8.59% 22%;
   width: 73.6%;
   max-width: 1001px;
-  margin-left: 13.9%;
+  margin-left: 18.5%;
   margin-top: 48px;
   align-items: start;
-  background-color: aqua;
+  position: relative;
+  background-color: brown;
 }
 #svgaboutme {
   grid-column: 1;
@@ -118,8 +119,186 @@ body{
   margin-top: 180%;
 }
 
+#photoap{
+    position: absolute;
+    z-index: 10;
+    margin-top: -26%;
+    width: 71vw;
+    
+}
+#myworksi{
+    position: absolute;
+    z-index: -1;
+    margin-left: 33.5%;
+    margin-top: 11%;
+    width: 14vw;
+}
+.myworkspics{
+    display: block;
+    margin-top: 30%;
+    background-color: aquamarine;
+    opacity: 50%;
+    position: relative;
+    padding: 0;
+    z-index: 5;
+    width: calc(100vw - 2.1875vw);
+}
+#mariiulibaetsa{
+    display: block;
+    z-index: 3;
+    position: absolute;
+    top: 0%;
+    left: 57.26837%;
+}
 
+#mariibalcon{
+    display: block;
+    z-index: 2;
+    position: absolute;
+    top: 11.89%;
+    left: 30.59%;
+}
 
+#sia1{
+    display: block;
+    z-index: 3;
+    position: absolute;
+    top: 18.73% ;
+    left: 1.118%;
+
+}
+#nastimarii{
+    display: block;
+    z-index: 4;
+    position: absolute;
+    top: 13.87%;
+    right: 0%;
+}
+#sialeg{
+    display: block;
+    z-index: 4;
+    position: absolute;
+    top: 28.05% ;
+    left: 26.59%;
+}
+
+#nasex{
+    display: block;
+    z-index: 3;
+    position: absolute;
+    top: 25.427% ;
+    left: 50.559%;
+}
+
+#siasun{
+    display: block;
+    z-index: 4;
+    position: absolute;
+    top: 37.78% ;
+    left: 36.58%;
+}
+#wood{
+    display: block;
+    z-index: 1;
+    position: absolute;
+    top: 36.069% ;
+    left: 11.18%;
+}
+#fabrika{
+    display: block;
+    z-index: 4;
+    position: absolute;
+    top: 42.797% ;
+    right: 0%;
+}
+#leggis{
+    display: block;
+    z-index:4;
+    position: absolute;
+    top: 46.56% ;
+    left: 39.29%;
+}
+#franz{
+    display: block;
+    z-index:2;
+    position: absolute;
+    top: 50.32% ;
+    left: 0%;
+}
+#dool{
+    display: block;
+    z-index: 3;
+    position: absolute;
+    top: 66.56% ;
+    left: 27.316%;
+}
+#sex{
+    display: block;
+    z-index: 4;
+    position: absolute;
+    top: 80.007% ;
+    left: 5.03%;
+}
+#dool2{
+    display: block;
+    z-index: 4;
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+#blockcontactsdown{
+    display: display ;
+    width: calc(100vw - 2.1875vw);
+    top: left;
+    left: 0;
+    position: relative;
+    z-index: 1;
+    margin-top: 0%;
+}
+
+ #contactsdown{ /*text H1*/
+    margin: 0;
+    font-family: zector;
+    color: white;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    top: 52.11%;
+    left: 9.98%;
+    font-size: 3.125vw;
+    }
+
+    #p_inst{ /*text inst*/
+    margin: 0;
+    font-family: poiret1;
+    color: white;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    top: 18.71227364%;
+    left: 43.69009585%;
+    font-size: 1.6vw;
+    text-decoration: none;
+
+    
+    }
+    #p_emeil{
+    margin: 0;
+    font-family: poiret1;
+    color: white;
+    display: block;
+    z-index: 2;
+    position: absolute;
+    top: 8.048289744%;
+    left: 54.31309904%;
+    font-size: 1.6vw; 
+    }
+#downlegs{
+    position: relative;
+    opacity: 100%;
+    width: 100%;
+    z-index: -1;
+}
 p{
     margin:0;
     padding:0;
