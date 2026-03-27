@@ -56,10 +56,7 @@ body{
     font-size: 3.125vw;
 }
 
-#logoKSE:hover {
-    background-color: blue;
-    opacity: 10;
-}
+
 
 #augebild{
     display:inline-block;
@@ -78,20 +75,23 @@ body{
     position: absolute;
      gap: 18.59vw;
     left: 36.7%;
-    top: 63%;
+    top: 67%;
+    text-decoration: none;
 
     
     }
 
-#upcontacts:link,#upcontacts a:visited,#upcontacts a:hover,#upcontacts a:active{ 
-        text-decoration: none;
+#upcontacts a:link,#upcontacts a:visited,#upcontacts a:hover,#upcontacts a:active{ 
+        
+    text-decoration: none;
+
         color: white;}
 
+        
 #blockme {
   display: grid;
   grid-template-columns: 8.59% 11.99% 1fr 8.59% 22%;
   width: 73.6%;
-  max-width: 1001px;
   margin-left: 18.5%;
   margin-top: 48px;
   align-items: start;
@@ -123,7 +123,7 @@ body{
 #photoap{
     position: absolute;
     z-index: 10;
-    margin-top: -26%;
+    margin-top: -22.5%;
     width: 71vw;
     
 }
