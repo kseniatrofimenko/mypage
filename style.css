@@ -83,7 +83,9 @@ body{
     
     }
 
-
+#upcontacts:link,#upcontacts a:visited,#upcontacts a:hover,#upcontacts a:active{ 
+        text-decoration: none;
+        color: white;}
 
 #blockme {
   display: grid;
@@ -94,7 +96,6 @@ body{
   margin-top: 48px;
   align-items: start;
   position: relative;
-  background-color: brown;
 }
 #svgaboutme {
   grid-column: 1;
@@ -150,6 +151,11 @@ body{
     position: absolute;
     top: 0%;
     left: 57.26837%;
+    transition: transform 0.4s ease;
+}
+#mariiulibaetsa:hover{
+    transform: scale(1.1);
+    z-index: 50;
 }
 
 #mariibalcon{
@@ -158,30 +164,49 @@ body{
     position: absolute;
     top: 11.89%;
     left: 30.59%;
+    transition: transform 0.4s ease
+}
+#mariibalcon:hover{
+    transform: scale(1.1);
+    z-index: 50;
 }
 
-#sia1{
+#sia1 {
     display: block;
     z-index: 3;
     position: absolute;
     top: 18.73% ;
     left: 1.118%;
+    transition: transform 0.4s ease
 
 }
+#sia1:hover{
+    transform: scale(1.1);
+    z-index: 50;}
+
 #nastimarii{
     display: block;
     z-index: 4;
     position: absolute;
     top: 13.87%;
     right: 0%;
+    transition: transform 0.4s ease
 }
+#nastimarii:hover{
+    transform: scale(1.1);
+    z-index: 50;}
+
 #sialeg{
     display: block;
     z-index: 4;
     position: absolute;
     top: 28.05% ;
     left: 26.59%;
+    transition: transform 0.4s ease
 }
+#sialeg:hover{
+    transform: scale(1.1);
+    z-index: 50;}
 
 #nasex{
     display: block;
@@ -189,7 +214,12 @@ body{
     position: absolute;
     top: 25.427% ;
     left: 50.559%;
+    transition: transform 0.4s ease
 }
+
+#nasex:hover{
+    transform: scale(1.1);
+    z-index: 50;}
 
 #siasun{
     display: block;
@@ -197,56 +227,104 @@ body{
     position: absolute;
     top: 37.78% ;
     left: 36.58%;
+    transition: transform 0.4s ease
 }
+
+#siasun:hover{
+    transform: scale(1.1);
+    z-index: 50;}
+
 #wood{
     display: block;
     z-index: 1;
     position: absolute;
     top: 36.069% ;
     left: 11.18%;
+    transition: transform 0.4s ease
 }
+
+#wood:hover{
+    transform: scale(1.1);
+    z-index: 50;}
+
 #fabrika{
     display: block;
     z-index: 4;
     position: absolute;
     top: 42.797% ;
     right: 0%;
+    transition: transform 0.4s ease
 }
+
+#fabrika:hover{
+    transform: scale(1.1);
+    z-index: 50;}
+
 #leggis{
     display: block;
     z-index:4;
     position: absolute;
     top: 46.56% ;
     left: 39.29%;
+    transition: transform 0.4s ease
 }
+
+#leggis:hover{
+    transform: scale(1.1);
+    z-index: 50;}
+
 #franz{
     display: block;
     z-index:2;
     position: absolute;
     top: 50.32% ;
     left: 0%;
+    transition: transform 0.4s ease
 }
+
+#franz:hover{
+    transform: scale(1.1);
+    z-index: 50;}
+
 #dool{
     display: block;
     z-index: 3;
     position: absolute;
     top: 66.56% ;
     left: 27.316%;
+    transition: transform 0.4s ease
 }
+
+#dool:hover{
+    transform: scale(1.1);
+    z-index: 50;}
+
 #sex{
     display: block;
     z-index: 4;
     position: absolute;
     top: 80.007% ;
     left: 5.03%;
+    transition: transform 0.4s ease
 }
+
+#sex:hover{
+    transform: scale(1.1);
+    z-index: 50;}
+
 #dool2{
     display: block;
     z-index: 4;
     position: absolute;
     bottom: 0%;
     right: 0%;
+    transition: transform 0.4s ease
 }
+
+#dool2:hover{
+    transform: scale(1.1);
+    z-index: 50;}
+
 #blockcontactsdown{
     display: display ;
     width: calc(100vw - 2.1875vw);
@@ -293,6 +371,11 @@ body{
     top: 8.048289744%;
     left: 54.31309904%;
     font-size: 1.6vw; 
+    
+    }
+    #p_emeil a:link,#p_emeil a:visited,#p_emeil a:hover,#p_emeil a:active{ 
+        text-decoration: none;
+        color: white;
     }
 #downlegs{
     position: relative;
