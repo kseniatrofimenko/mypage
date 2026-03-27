@@ -136,13 +136,14 @@ body{
 .myworkspics{
     display: block;
     margin-top: 30%;
-    background-color: aquamarine;
-    opacity: 50%;
     position: relative;
     padding: 0;
     z-index: 5;
     width: calc(100vw - 2.1875vw);
+    height: 350vh;
+    margin-bottom: 10%;
 }
+
 #mariiulibaetsa{
     display: block;
     z-index: 3;
